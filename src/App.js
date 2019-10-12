@@ -6,11 +6,10 @@ import './App.css'
 
 import Login from './containers/Login'
 import Signup from './containers/Signup';
-import Home from './containers/Home';
-import UserProfile from './components/UserProfile';
+import SheetMusicList from './components/SheetMusicList';
 import PrivateRoute from './components/PrivateRoute';
 import MainHeader from './components/MainHeader';
-
+import SheetMusicUpload from './components/SheetMusicUpload';
 
 class App extends Component {
   render() {
@@ -22,15 +21,15 @@ class App extends Component {
             <Content style={{ padding: '0 00px' }}>
             <MainHeader/>
               <Switch>
-                  <Route path="/" exact component={Home} />
+                  <Route path="/" exact component={SheetMusicList} />
                   <Route path="/login" exact component={Login} />
                   <Route path="/signup" exact component={Signup} />
-                  <PrivateRoute path="/user-profile" exact component={UserProfile} />
+                  <Route path="/upload" exact component={SheetMusicUpload} />
 
               </Switch>
             </Content>
             <Footer style={{ textAlign: 'center' }}>
-              Book-In ©2019
+              Sheetpaper ©2019
             </Footer>
         </Layout>
       </Router>

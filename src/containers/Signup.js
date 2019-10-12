@@ -71,12 +71,12 @@ import * as actions from '../store/actions/auth';
           <Row type="flex" >
             <Col span={24}>
               <h2 style={{color: '#ffffff', fontSize: '2em', fontWeight: 'bold', textAlign: 'center', textShadow: '0 0 3px #234252'}}>
-                  Free signup for bus passengers
+                  Sheetpaper signup
               </h2>
                       {/* <br/> */}
                           
                 <h2 style={{color: '#ffffff',  textAlign: 'center'}}>
-                  Use Book-In to book your bus trips
+                  Use Sheetpaper to store your personal music
                 </h2>
                 <br/>
             </Col>

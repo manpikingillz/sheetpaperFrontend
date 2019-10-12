@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import axios from 'axios';
 import { NavLink, Link, Redirect } from 'react-router-dom';
 import * as actions from '../store/actions/auth';
-import NotSignedInHeader from '../components/NotSignedInHeader';
 import GoogleLogin from 'react-google-login';
 import FontAwesome from 'react-fontawesome';
 // import FacebookLogin from 'react-facebook-login';
@@ -82,7 +81,6 @@ class NormalLoginForm extends React.Component {
         return (
             <div>
                 <div>
-                    {/* <NotSignedInHeader/> */}
                     <br />
                     <Row>
                         <Col sm={{ span: 24 }} md={{ span: 8, offset: 8 }}>
