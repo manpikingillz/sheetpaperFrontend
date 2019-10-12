@@ -1,0 +1,148 @@
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(250, 174, 174, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 70%;
+  width: 90%;
+  animation: mymove 10s infinite;
+  /* -webkit-animation: mymove 5s infinite; */
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+@-webkit-keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+.Driver-gif {
+  height: 50%;
+  width: 50%;
+}
+
+#icon_from {
+  background-image: url(./icons8-marker-48.png);
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+  background-size: 5%;
+}
+
+#icon_to {
+  background-image: url(./icons8-marker-40.png);
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+  background-size: 5%;
+}
+
+#facebook_icon {
+  background-image: url(./icons8-marker-40.png);
+  background-repeat: no-repeat;
+  float: left;
+  background-size: 20%;
+}
+
+.GrayText {
+  color: #4c4c4c;
+}
+
+.UserProfileImage {
+  height: 90%;
+  width: 90%;
+}
+
+/* you can make up upload button and sample style by using stylesheets */
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+.home-bg {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7eb1e8+41,bbe2ff+100 */
+  background: #7eb1e8; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #7eb1e8 41%,
+    #bbe2ff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #7eb1e8 41%,
+    #bbe2ff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #7eb1e8 41%,
+    #bbe2ff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7eb1e8', endColorstr='#bbe2ff',GradientType=0 ); /* IE6-9 */
+}
+
+.signup-bg {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a849a3+17,e570e7+70,e570e7+88 */
+
+  background: #a849a3; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #a849a3 17%,
+    #e570e7 70%,
+    #e570e7 88%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #a849a3 17%,
+    #e570e7 70%,
+    #e570e7 88%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #a849a3 17%,
+    #e570e7 70%,
+    #e570e7 88%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a849a3', endColorstr='#e570e7',GradientType=0 ); /* IE6-9 */
+}
+
+.facebook-button-class {
+  height: 100%;
+  background-color: #2b569e;
+  border-width: 1px;
+  color: #ffffff;
+}
+
