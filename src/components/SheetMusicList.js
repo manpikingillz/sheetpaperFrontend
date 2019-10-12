@@ -141,10 +141,7 @@ class SheetMusicList extends React.Component{
       ];
     
       fetchData = () => {
-        axios.get(`${API_HOST_URL}/api/sheetmusicfiles/`,
-        {
-          headers: {Authorization: 'Token ' + this.props.token}  
-        })
+        axios.get(`${API_HOST_URL}/api/sheetmusicfiles/`)
           .then(res => {
             this.setState({
               files: res.data
